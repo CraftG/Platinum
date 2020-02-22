@@ -1,0 +1,4 @@
+name: Platinum
+main: xyz.hstudio.platinum.Platinum
+version: '${project.version}'
+depend: [HStudioLibrary, PlaceholderAPI]

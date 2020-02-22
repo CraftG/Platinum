@@ -1,0 +1,26 @@
+# 注意，请使用UTF-8，不分平台
+
+# 显示该计分板的权限，设置为''则所有人都可以显示
+permission: ''
+
+# 优先级，数字小的将优先判断
+priority: 0
+
+# 更新间隔，以tick为单位
+update_tick: 20
+
+# 世界列表
+world:
+  - 'world'
+
+# 内容设置
+# 由于游戏的限制，名字下的标签只能显示1行
+# 如果能显示多行将会更新
+# 插件将逐一显示以下内容
+tags:
+  1:
+    score: '%player_health%'
+    text: '&c❤'
+  2:
+    score: '%player_health%'
+    text: '&c血量'
